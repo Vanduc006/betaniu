@@ -1,0 +1,45 @@
+{
+    "name" : "Nhat Tan",
+    "avatar" : "./anhtan.jpg",
+    "current_carrer" : "HR",
+    "ability_work" : true,
+    "address" : "Thu Duc, HCM",
+    "phone" : "01010101",
+    "email" : "nhattan@hr.com",
+    "cv" : "./pathtocv",
+    "linkedin" : "linkedinurl",
+
+    "about" : [
+        {
+            "content" : "Anh tan iu"
+        },
+        {
+            "content" : "HEHEHE"
+        }
+    ],
+
+    "education" : [
+        {
+            "school" : "University Foreign Trader FTU",
+            "degree" : "Degree",
+            "details" : "GPA",
+            "period" : "2000"
+        }
+    ],
+
+    "languages" : [
+        {
+            "name" : "English",
+            "level" : "Speak OK, write good"
+        },
+        {
+            "name" : "Vietnamese",
+            "level" : "Native"
+        },
+        {
+            "name" : "French",
+            "level" : "Comment tu ca va ?"
+        }
+    ]
+
+}

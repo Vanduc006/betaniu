@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Excel", 
+        "path": "./excel-svgrepo-com.svg" 
+    },
+    {
+        "name": "Power BI", 
+        "path": "./powerbi-svgrepo-com.svg"
+    },
+    {
+        "name": "Notion", 
+        "path": "./notion-svgrepo-com.svg"
+    },
+    {
+        "name": "Figma", 
+        "path": "./figma-svgrepo-com.svg"
+    },
+    {
+        "name": "Jira", 
+        "path" : "./jira-svgrepo-com.svg"
+    }
+]

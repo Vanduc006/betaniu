@@ -1,0 +1,16 @@
+[
+    {
+        "company" : "Nashtech",
+        "role" : "HR",
+        "peroid" : "2000",
+        "descriptions": [
+            "Cong ty cu",
+            "Co tru so ngoai ha noi"
+        ]
+    },
+    {
+        "company" : "Shopee",
+        "role" : "HR",
+        "peroid" : "2000"
+    }
+]
