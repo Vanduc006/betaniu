@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Mail, Phone, MapPin, Download, MessageSquare, CheckCircle2, Linkedin, FileText, ExternalLink, ChevronDown, ChevronUp } from "lucide-react"
+import { Mail, Phone, MapPin, Download, MessageSquare, CheckCircle2, Linkedin, FileText, ChevronDown, ChevronUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import person from "../constants/person.json"
 import exp from "../constants/experiences.json"
@@ -26,38 +26,38 @@ export default function Portfolio() {
         setExpandedExp(expandedExp === idx ? null : idx)
     }
 
-    const projects = [
-        {
-            title: "Unity Fitness - ERP System",
-            description: "A system is a web-based solution designed to optimize and streamline all aspects of gym operations.",
-            link: "#",
-        },
-        {
-            title: "Unity Fitness - Mobile App",
-            description: "The mobile app is designed for club members to provide a convenient experience. Key features include purchasing PT packages, booking PT sessions, and more.",
-            link: "#",
-        },
-        {
-            title: "Teller App",
-            description: "It is an advanced technological solution designed to enhance customer experience in branch transactions of Eximbank.",
-            link: "#",
-        },
-        {
-            title: "Online Bank Account Opening Feature",
-            description: "Work as a BA trainee to collect and analyze user requirements to enhance convenience by allowing them to open bank accounts directly through the mobile app, eliminating to visit a physical branch.",
-            link: "#",
-        },
-        {
-            title: "Rental House - Mobile App",
-            description: "This application is designed to help students and office workers easily search for rental rooms. It also serves as a platform for landlords to post rental listings.",
-            link: "#",
-        },
-        {
-            title: "UEH Student Activities and Psychology Counseling System",
-            description: "A system designed to support psychological sharing and counseling by providing articles and topics for UEH students, helping them maximize their potential.",
-            link: "#",
-        },
-    ]
+    // const projects = [
+    //     {
+    //         title: "Unity Fitness - ERP System",
+    //         description: "A system is a web-based solution designed to optimize and streamline all aspects of gym operations.",
+    //         link: "#",
+    //     },
+    //     {
+    //         title: "Unity Fitness - Mobile App",
+    //         description: "The mobile app is designed for club members to provide a convenient experience. Key features include purchasing PT packages, booking PT sessions, and more.",
+    //         link: "#",
+    //     },
+    //     {
+    //         title: "Teller App",
+    //         description: "It is an advanced technological solution designed to enhance customer experience in branch transactions of Eximbank.",
+    //         link: "#",
+    //     },
+    //     {
+    //         title: "Online Bank Account Opening Feature",
+    //         description: "Work as a BA trainee to collect and analyze user requirements to enhance convenience by allowing them to open bank accounts directly through the mobile app, eliminating to visit a physical branch.",
+    //         link: "#",
+    //     },
+    //     {
+    //         title: "Rental House - Mobile App",
+    //         description: "This application is designed to help students and office workers easily search for rental rooms. It also serves as a platform for landlords to post rental listings.",
+    //         link: "#",
+    //     },
+    //     {
+    //         title: "UEH Student Activities and Psychology Counseling System",
+    //         description: "A system designed to support psychological sharing and counseling by providing articles and topics for UEH students, helping them maximize their potential.",
+    //         link: "#",
+    //     },
+    // ]
 
 
     return (
