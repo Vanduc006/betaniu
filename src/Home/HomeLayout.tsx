@@ -282,7 +282,8 @@ export default function Portfolio() {
                             {person.education.map((edu, idx) => (
                                 <div key={idx} className="flex gap-4">
                                     <div className="w-12 h-12 rounded-lg bg-blue-600 flex-shrink-0 flex items-center justify-center">
-                                        <span className="text-white font-bold text-xs">UEH</span>
+                                        {/* <span className="text-white font-bold text-xs">UEH</span> */}
+                                        <img src="./FTU.png"/>
                                     </div>
                                     <div className="flex-1 min-w-0">
                                         <h3 className="font-bold text-gray-900">{edu.school}</h3>
