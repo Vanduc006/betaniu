@@ -275,6 +275,86 @@ export default function Portfolio() {
                                 ))}
                                 {projects.map((project) => (
                                     <div
+                                        key={project.title}
+                                        className="flex flex-col items-center justify-start gap-2 bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow flex-shrink-0 w-56"
+                                    >
+                                        <div
+                                            className="w-full rounded-md overflow-hidden bg-gray-200"
+                                            style={{ aspectRatio: "4 / 3" }}
+                                        >
+                                            <img
+                                                src={project.image}
+                                                alt={project.title}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <span className="mt-2 text-sm text-gray-800 font-medium text-center line-clamp-2">
+                                            {project.title}
+                                        </span>
+                                    </div>
+                                ))}
+                                {projects.map((project) => (
+                                    <div
+                                        key={project.title}
+                                        className="flex flex-col items-center justify-start gap-2 bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow flex-shrink-0 w-56"
+                                    >
+                                        <div
+                                            className="w-full rounded-md overflow-hidden bg-gray-200"
+                                            style={{ aspectRatio: "4 / 3" }}
+                                        >
+                                            <img
+                                                src={project.image}
+                                                alt={project.title}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <span className="mt-2 text-sm text-gray-800 font-medium text-center line-clamp-2">
+                                            {project.title}
+                                        </span>
+                                    </div>
+                                ))}
+                                {projects.map((project) => (
+                                    <div
+                                        key={project.title}
+                                        className="flex flex-col items-center justify-start gap-2 bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow flex-shrink-0 w-56"
+                                    >
+                                        <div
+                                            className="w-full rounded-md overflow-hidden bg-gray-200"
+                                            style={{ aspectRatio: "4 / 3" }}
+                                        >
+                                            <img
+                                                src={project.image}
+                                                alt={project.title}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <span className="mt-2 text-sm text-gray-800 font-medium text-center line-clamp-2">
+                                            {project.title}
+                                        </span>
+                                    </div>
+                                ))}
+                                {projects.map((project) => (
+                                    <div
+                                        key={project.title}
+                                        className="flex flex-col items-center justify-start gap-2 bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow flex-shrink-0 w-56"
+                                    >
+                                        <div
+                                            className="w-full rounded-md overflow-hidden bg-gray-200"
+                                            style={{ aspectRatio: "4 / 3" }}
+                                        >
+                                            <img
+                                                src={project.image}
+                                                alt={project.title}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <span className="mt-2 text-sm text-gray-800 font-medium text-center line-clamp-2">
+                                            {project.title}
+                                        </span>
+                                    </div>
+                                ))}
+                                {projects.map((project) => (
+                                    <div
                                         key={`${project.title}-dup`}
                                         className="flex flex-col items-center justify-start gap-2 bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow flex-shrink-0 w-56"
                                     >
