@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import person from "../constants/person.json"
 import exp from "../constants/experiences.json"
 import skills from "../constants/skills.json"
-import stacks from "../constants/stacks.json"
+import projects from "../constants/projects.json"
 
 interface Experience {
     company: string
@@ -250,25 +250,47 @@ export default function Portfolio() {
                     </section>
 
                     <section className="mb-12">
-                        <h2 className="text-2xl font-bold text-gray-900 mb-6 tracking-wide">Tech stack</h2>
-                        <div className="relative h-30 overflow-hidden bg-gray-50 rounded-lg border border-gray-200">
+                        <h2 className="text-2xl font-bold text-gray-900 mb-6 tracking-wide">Projects</h2>
+                        <div className="relative h-56 overflow-hidden bg-gray-50 rounded-lg border border-gray-200">
                             <div className="absolute inset-0 flex flex-row items-center gap-6 px-6 animate-slide-left">
-                                {stacks.map((tech) => (
+                                {projects.map((project) => (
                                     <div
-                                        key={tech.name}
-                                        className="flex flex-col items-center justify-center gap-2 bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow flex-shrink-0 w-20"
+                                        key={project.title}
+                                        className="flex flex-col items-center justify-start gap-2 bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow flex-shrink-0 w-56"
                                     >
-                                        <img src={tech.path}></img>
-                                        <span className="text-xs text-gray-700 font-medium text-center">{tech.name}</span>
+                                        <div
+                                            className="w-full rounded-md overflow-hidden bg-gray-200"
+                                            style={{ aspectRatio: "4 / 3" }}
+                                        >
+                                            <img
+                                                src={project.image}
+                                                alt={project.title}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <span className="mt-2 text-sm text-gray-800 font-medium text-center line-clamp-2">
+                                            {project.title}
+                                        </span>
                                     </div>
                                 ))}
-                                {stacks.map((tech) => (
+                                {projects.map((project) => (
                                     <div
-                                        key={`${tech.name}-dup`}
-                                        className="flex flex-col items-center justify-center gap-2 bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow flex-shrink-0 w-20"
+                                        key={`${project.title}-dup`}
+                                        className="flex flex-col items-center justify-start gap-2 bg-white rounded-lg p-3 shadow-sm hover:shadow-md transition-shadow flex-shrink-0 w-56"
                                     >
-                                        <img src={tech.path}></img>
-                                        <span className="text-xs text-gray-700 font-medium text-center">{tech.name}</span>
+                                        <div
+                                            className="w-full rounded-md overflow-hidden bg-gray-200"
+                                            style={{ aspectRatio: "4 / 3" }}
+                                        >
+                                            <img
+                                                src={project.image}
+                                                alt={project.title}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <span className="mt-2 text-sm text-gray-800 font-medium text-center line-clamp-2">
+                                            {project.title}
+                                        </span>
                                     </div>
                                 ))}
                             </div>
